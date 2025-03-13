@@ -102,3 +102,4 @@ call plug#end()
 " Use <C-Space> for autocompletion
 " Use <leader> + e (space + e) for NERDTree (if installed)
 
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
